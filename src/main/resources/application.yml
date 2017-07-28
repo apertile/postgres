@@ -1,0 +1,13 @@
+#
+# [ Database Configuration Section ]
+#
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/OrionScion
+    username: postgres
+    password: password
+    platform: POSTGRESQL
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
